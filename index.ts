@@ -5,7 +5,7 @@ import config from './config';
 const app = new App({
   signingSecret: config.signingSecret,
   token: config.botToken,
-  socketMode: true,
+  // socketMode: true,
   appToken: config.appToken,
   port: Number(process.env.PORT) || 3000
 });
